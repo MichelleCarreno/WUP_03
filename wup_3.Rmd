@@ -44,7 +44,7 @@ The box for the back rows are much larger than the front and middle seats. The r
 favstats(alcohol~Seat,data=davisdata)
 ```
 
-The number of people who sat in the back row was 32. The front row contained 33 people, and middle row had the largest amount with 83. 
+The number of people who sat in the back row was 32. The front row contained 33 people, and middle row had the largest amount with 83. The quadrant displayed by Q, are ordered by the row and in quadrants one and 3. In the first guadrant, all three showed results. with the largest result of 0.75 in the back row. The front and middle had no variance. The third quadrant also repeated a similar result. The larget quadrant result of 14.25 was expressed in the back row.  
 
 
 ## Inferential Tests
@@ -55,6 +55,8 @@ summary.aov(model1)
 ```
 
 The inferential test shows that the probability is too low, at 0.000116. We reject the null hypothesis as is.
+ 
+
 
 ```{r}
 #we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
@@ -68,4 +70,4 @@ A multiple comparison test showcases a substantial difference or a lack of using
 
 ## Conclusions
 
-
+To disuss these results, we ran a series of tests and compared the results. Through a a multiple comparison test, we were able to display the number difference an that a large portion of the data agreed that the back row had the most instance of drinking compared to the front and middle seats. The categorical data was organized in numerical summaries.   
